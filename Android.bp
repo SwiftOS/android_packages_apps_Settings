@@ -60,8 +60,8 @@ android_library {
     srcs: [
            "src/**/*.java",
            "src/**/*.kt",
-           "crDroidSettings/src/**/*.java",
-           "crDroidSettings/src/**/*.kt",
+           "swiftSettings/src/**/*.java",
+           "swiftSettings/src/**/*.kt",
     ],
 
     aaptflags: ["--extra-packages com.crdroid.settings"],
@@ -70,7 +70,7 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
-        "crDroidSettings/res",
+        "swiftSettings/res",
         "SettingsGoogle/res",
     ],
 
